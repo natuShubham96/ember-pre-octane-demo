@@ -14,3 +14,7 @@
 .menu-contact {
     margin-right: 10px;
 }
+
+a {
+    cursor: pointer;
+}

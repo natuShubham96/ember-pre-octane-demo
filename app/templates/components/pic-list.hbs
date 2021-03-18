@@ -1,0 +1,7 @@
+<li class="pic">
+    <a {{action "toggleImageSize"}} class="image">
+    <img src={{if isWide picture.url picture.thumbnailUrl}} />
+    <small>View in {{if isWide "small" "large"}}</small>
+    </a>
+    {{picture.title}}
+</li>

@@ -35,7 +35,7 @@ export default function() {
                 "userId": 2,
                 "id": 11,
                 "title": "quam nostrum impedit mollitia quod et dolor"
-            }];
+            }]
     };
   });
   
