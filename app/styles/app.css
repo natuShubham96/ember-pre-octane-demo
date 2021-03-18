@@ -1,0 +1,16 @@
+.index  {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.links {
+    display: inline-block;
+}
+
+.menu-about {
+    margin-right: 10px;
+}
+
+.menu-contact {
+    margin-right: 10px;
+}
