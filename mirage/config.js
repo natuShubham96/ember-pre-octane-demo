@@ -24,18 +24,24 @@ export default function() {
     https://www.ember-cli-mirage.com/docs/route-handlers/shorthands
   */
 
-    this.get('/rentals', function() {
+    this.get('/pictures', function() {
     return {
-      data: [  {
-                "userId": 1,
-                "id": 1,
-                "title": "quidem molestiae enim"
-            },
-            {
-                "userId": 2,
-                "id": 11,
-                "title": "quam nostrum impedit mollitia quod et dolor"
-            }]
+      "data": [  
+        {
+          "type": "picture",
+            "id": 1,
+           "title": "accusamus beatae ad facilis cum similique qui sunt",
+           "url": "https://via.placeholder.com/600/92c952",
+           "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  },
+   {
+     "type": "picture",
+    "id": 66,
+    "title": "provident rerum voluptatem illo asperiores qui maiores",
+    "url": "https://via.placeholder.com/600/ee0a7e",
+    "thumbnailUrl": "https://via.placeholder.com/150/ee0a7e"
+  },
+  ]
     };
   });
   
