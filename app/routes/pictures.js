@@ -6,8 +6,9 @@ export default Route.extend({
 
         // return this.store.findAll('picture');
 
-        let response = await fetch('/pictures');
+        // let response = await fetch('/pictures');
+                let response = await fetch('https://jsonplaceholder.typicode.com/photos');
     let parsed = await response.json();
-    return parsed.data;
+    return parsed;
     }
 });
